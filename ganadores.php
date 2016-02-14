@@ -79,7 +79,7 @@ padding-right:auto;
 					$conexion=$conectar;//toma el valor del objeto
 						
 
-					$consulta="SELECT MAX(Total) FROM registros ";
+					$consulta="SELECT * ,MAX(Total) FROM registros ";
 
 					$ejecutar=$conexion->query($consulta);
 					
